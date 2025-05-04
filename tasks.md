@@ -3,8 +3,16 @@
 ## 1. Project Setup
 - [x] Initialize React project with TypeScript
 - [x] Set up Zustand for state management
-- [ ] Set up Socket.io for signaling (if needed)
+- [x] Set up Socket.io for signaling (if needed)
 - [x] Configure ESLint, Prettier, and basic folder structure
+
+## 1A. Firestore Signaling Server Integration
+- [ ] Add Firebase to the project
+- [ ] Initialize Firebase and Firestore
+- [ ] Set up Firestore security rules for signaling
+- [ ] Implement Firestore logic for room creation and joining
+- [ ] Use Firestore for exchanging WebRTC signaling data (SDP, ICE)
+- [ ] Sync peer list in real-time via Firestore
 
 ## 2. User Authentication & Lobby
 - [ ] Simple username/nickname input
